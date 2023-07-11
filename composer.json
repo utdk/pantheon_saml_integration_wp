@@ -19,7 +19,7 @@
   "require": {
     "composer-plugin-api": "*",
     "utexas/simplesamlphp": "0.1.1",
-    "utexas/utexas-eid-auth": "dev-main"
+    "utexas/utexas-eid-auth": "1.0.1"
   },
   "require-dev": {
     "composer/composer": "^1.0 || ^2.0"
