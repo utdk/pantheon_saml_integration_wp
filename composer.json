@@ -34,7 +34,7 @@
   "extra": {
     "class": "Utexas\\Composer\\SamlAuthenticationSetupPlugin",
     "patches": {
-      "drupal/core": {
+      "utexas/simplesamlphp": {
         "Simplesamlphp compatibility with WordPress": "https://wcms.its.utexas.edu/patches/wp-simplesaml.patch"
       }
     }
