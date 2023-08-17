@@ -17,6 +17,7 @@
     }
   ],
   "require": {
+    "cweagans/composer-patches": "~1.0",
     "composer-plugin-api": "*",
     "utexas/simplesamlphp": "0.1.1",
     "utexas/utexas-eid-auth": "1.0.1",
@@ -31,6 +32,11 @@
     }
   },
   "extra": {
-    "class": "Utexas\\Composer\\SamlAuthenticationSetupPlugin"
+    "class": "Utexas\\Composer\\SamlAuthenticationSetupPlugin",
+    "patches": {
+      "utexas/simplesamlphp": {
+        "Simplesamlphp compatibility with WordPress": "https://wcms.its.utexas.edu/patches/wp-simplesaml.patch"
+      }
+    }
   }
 }
