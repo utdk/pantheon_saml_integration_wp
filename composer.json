@@ -19,7 +19,7 @@
   "require": {
     "cweagans/composer-patches": "~1.0",
     "composer-plugin-api": "*",
-    "simplesamlphp/simplesamlphp": "2.1.2",
+    "simplesamlphp/simplesamlphp": "2.3.3",
     "utexas/utexas-eid-auth": "1.1.0"
   },
   "require-dev": {
