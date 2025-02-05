@@ -2,7 +2,7 @@
   "name": "utexas/pantheon_saml_integration_wp",
   "type": "composer-plugin",
   "description": "Composer plugin that integrates the University of Texas Enterprise Authentication on Pantheon for WordPress",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "keywords": [],
   "license": [
     "GPL-2.0-or-later"
